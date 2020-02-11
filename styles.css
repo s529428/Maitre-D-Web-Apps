@@ -14,6 +14,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 60%;
+    max-width: 480px;
 }
 .billForm >* {
     margin: 5px;
