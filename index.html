@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maitre D Practice App Caroline Finnerty</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Maitre D</h1>
+        <div class="billForm" name="billForm" id="billForm">
+            <label>Total: </label><input type="number" name="totalIN" placeholder="Input Total Here" id="totalIN">
+            <label>Rate: </label><input type="number" step="0.01" min="0" max="1" name="rateIN" placeholder="Input Tip Percentage Here" style="height: 25px;" id="rateIN">
+            <div id="output-group">
+                <div class="outputLabel">Tip: </div><div class="outputText" id="tipo">$0</div>
+                <div class="outputLabel">Tax: </div><div class="outputText" id="taxo">$0</div>
+                <div class="outputLabel">Grand Total: </div><div class="outputText" id="grandtotalo">$0</div>
+            </div>
+            <input type="submit" value="Calculate!" name="submit" onclick="calculate()">
+        </form>
+    </body>
+</html>
